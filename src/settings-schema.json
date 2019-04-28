@@ -1,0 +1,44 @@
+{
+    "protocol": {
+        "type" : "radiogroup",
+        "default" : "UDP",
+        "description": "Protocol",
+        "tooltip": "Sets the protocol",
+        "options": {
+            "UPD": "UDP",
+            "TCP": "TCP"
+        }
+    },
+    "kill_switch": {
+        "type" : "checkbox",
+        "default" : false,
+        "description" : "Kill Switch",
+        "tooltip": "Enables or disables Kill Switch feature"
+    },
+    "cybersec": {
+        "type" : "checkbox",
+        "default" : false,
+        "description" : "CyberSec",
+        "tooltip": "Enables or disables CyberSec feature"
+    },
+    "obfuscate": {
+        "type" : "checkbox",
+        "default" : false,
+        "description" : "Obfuscate"
+    },
+    "notify": {
+        "type" : "checkbox",
+        "default" : false,
+        "description" : "Notify"
+    },
+    "auto-connect": {
+        "type" : "checkbox",
+        "default" : false,
+        "description" : "Auto-Connect"
+    },
+    "dns": {
+        "type" : "checkbox",
+        "default" : false,
+        "description" : "DNS"
+    }
+}
