@@ -16,7 +16,12 @@ This applet allows you to:
 
 ## Requirements
 
-You need to install the Nord VPN application.
+You need to install :
+
+ * the Nord VPN application
+	* Please follow the instructions provided here: https://support.nordvpn.com/Connectivity/Linux/1182453582/Installing-and-using-NordVPN-on-Linux.htm
+ * the jq JSON processor (https://stedolan.github.io/jq/)
+	* Please follow the instructions provided here: https://stedolan.github.io/jq/download/
 
 You need to login into NordVPN first:
 ```
