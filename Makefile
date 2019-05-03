@@ -45,16 +45,3 @@ update_and_reload: update reload ## Install, reload the applet and reload Cinnam
 
 reload: ## Reload Cinnamon session
 	$(shell cinnamon --replace > /dev/null 2>&1 &)
-
-.PHONY: dist purge clean
-dist: ## Make distribution
-	mkdir -p $(DIST_FILES) 
-	cp $(METADATA) $(DIST_META)
-	cp -r $(SRC) $(DIST_FILES)
-
-clean: ## Clean
-	@echo $(SRC)
-	@echo $(METADATA)
-
-purge: ## Purge
-	rm -rf $(DIST_META)
