@@ -1,5 +1,5 @@
 /*
- * nordvpn@mathieu.aguesse@free.fr Applet
+ * nordvpn@maguesse Applet
  *
  * Cinnamon applet displaying NordVPN status.
  */
@@ -13,7 +13,7 @@ const Settings  = imports.ui.settings;
 const St        = imports.gi.St;
 const Util      = imports.misc.util;
 
-const UUID = "nordvpn@mathieu.aguesse@free.fr"
+const UUID = "nordvpn@maguesse"
 const HOME_DIR = GLib.get_home_dir();
 const APPLET_DIR = HOME_DIR + "/.local/share/cinnammon/applets/" + UUID;
 const SCRIPTS_DIR = APPLET_DIR + "/scripts";
