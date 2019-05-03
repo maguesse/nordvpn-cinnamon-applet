@@ -2,3 +2,6 @@
 *.old
 *.bak
 ~.*
+
+# Ignore distribution folder
+dist
