@@ -82,10 +82,10 @@ NordVPNApplet.prototype = {
                     { icon_name: 'error',
                         icon_type: St.IconType.FULLCOLOR,
                         icon_size: 36});
-            Main.criticalNotify(_("Nord VPN application not installed !"), "\nPlease see the readme.", icon);
+            Main.criticalNotify(_("Nord VPN application not installed !"), _("\nPlease see the readme."), icon);
             this.nordvpn_installed = false;
-            this.set_applet_tooltip(_("Nord VPN application not found"));
-            this.set_applet_label(_("Err"));
+            this.set_applet_tooltip(_("Nord VPN application not found."));
+            this.set_applet_label(_("Error"));
         } else {
             this.bind_settings(metadata.uuid, instance_id);
             this._check_status();
@@ -140,7 +140,6 @@ NordVPNApplet.prototype = {
     },
 
     on_applet_clicked: function(event) {
-        // TODO : Enable/Disable NordVPN depending on its current status
         this._toggle_nordvpn();
     },
 
@@ -154,13 +153,13 @@ NordVPNApplet.prototype = {
             this.set_applet_tooltip("");
             this.set_applet_icon_path(this.icon_active_32);
             this.set_applet_tooltip(
-                    _("Status : Connected to %s (IP: %s)").format(
+                    _("Status : Connected to %s (IP: %s).").format(
                         this.vpn_status.current_server,
                         this.vpn_status.your_new_ip));
         } else {
             this.set_applet_tooltip("");
             this.set_applet_icon_path(this.icon_inactive_48);
-            this.set_applet_tooltip(_("Status : Disconnected"));
+            this.set_applet_tooltip(_("Status : Disconnected."));
         }
     },
 

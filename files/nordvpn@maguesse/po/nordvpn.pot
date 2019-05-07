@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019 Mathieu AGUESSE <mathieu.aguesse@free.fr>
+# This file is distributed under the same license as the nordvpn package.
+# Mathieu AGUESSE <mathieu.aguesse@free.fr>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nordvpn 0.1\n"
+"Report-Msgid-Bugs-To: mathieu.aguesse@free.fr\n"
+"POT-Creation-Date: 2019-05-07 22:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: files/nordvpn@maguesse/applet.js:85
+msgid "Nord VPN application not installed !"
+msgstr ""
+
+#: files/nordvpn@maguesse/applet.js:85
+msgid ""
+"\n"
+"Please see the readme."
+msgstr ""
+
+#: files/nordvpn@maguesse/applet.js:87
+msgid "Nord VPN application not found."
+msgstr ""
+
+#: files/nordvpn@maguesse/applet.js:88
+msgid "Error"
+msgstr ""
+
+#: files/nordvpn@maguesse/applet.js:156
+#, javascript-format
+msgid "Status : Connected to %s (IP: %s)."
+msgstr ""
+
+#: files/nordvpn@maguesse/applet.js:162
+msgid "Status : Disconnected."
+msgstr ""
+
+#. nordvpn@maguesse->metadata.json->description
+msgid "Manage NordVPN application (not affiliated to NordVPN)"
+msgstr ""
+
+#. nordvpn@maguesse->metadata.json->name
+msgid "NordVPN"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->protocol->description
+msgid "Protocol"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->protocol->tooltip
+msgid "Sets the protocol"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->protocol->options
+msgid "UPD"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->protocol->options
+msgid "TCP"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->header-nordvp-settings->description
+msgid "Nord VPN Settings"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->kill_switch->description
+msgid "Kill Switch"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->kill_switch->tooltip
+msgid "Enables or disables Kill Switch feature"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->refresh-interval->description
+msgid "Update interval"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->refresh-interval->tooltip
+msgid "Interval at which applet will check NordVPN status."
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->refresh-interval->units
+msgid "seconds"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->auto-connect->description
+msgid "Auto-Connect"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->cybersec->description
+msgid "CyberSec"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->cybersec->tooltip
+msgid "Enables or disables CyberSec feature"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->obfuscate->description
+msgid "Obfuscate"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->header-applet-settings->description
+msgid "Applet Settings"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->notify->description
+msgid "Notify"
+msgstr ""
+
+#. nordvpn@maguesse->settings-schema.json->dns->description
+msgid "DNS"
+msgstr ""
